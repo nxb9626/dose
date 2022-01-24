@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+        
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow">
+
+        <meta name="google" content="nositelinkssearchbox">
+        <meta name="google" content="notranslate">
+        
+
+        
+        
+        
+
+        
+        <link href="https://oltdaniel.github.io/dose/style.css" rel="stylesheet"/>
+        
+        <title></title>
+    </head>
+    <body>
+        <script>
+            function evaluate_prefers_color() {
+                if(localStorage.getItem('prefers-color') === 'dark') {
+                    document.body.classList.add('dark');
+                } else if(localStorage.getItem('prefers-color') === 'light') {
+                    document.body.classList.remove('dark');
+                } else if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.body.classList.add('dark');
+                }
+            }
+            evaluate_prefers_color();
+        </script>
+        
+    <header>
+        <img src="https://avatars.githubusercontent.com/u/53529846?v=4" height="50px" width="50px">
+<p>Hi, this is me. I write about microcontrollers, programming and cloud software. Sometimes I add stuff to my wiki for personal documentation of my infrastructure or handy tricks. Or I have a cool project to write a blog post about.</p>
+    </header>
+    <main>
+        
+        
+            <article onclick="redirect('https://oltdaniel.github.io/dose/de/hello-world/')">
+                <h3>Hallo, Welt</h3>
+                <time>2020-03-11</time>
+                <p>Das hier ist nur ein kleines Beispiel von einem Artikel.</p>
+                <div class="chips">
+                    
+                        
+                            <span class="lang">en</span>
+                        
+                            <span class="lang">de</span>
+                        
+                    
+                    
+                </div>
+            </article>
+            
+        
+    </main>
+
+        <footer>
+            <hr text="&copy; Copyright 2022" />
+            
+            <div class="footer-social-media">
+                <a onclick="toggle_prefers_color()">Toggle Theme</a>
+                
+                    <a href="https://github.com/oltdaniel" target="_blank">GitHub</a>
+                
+                    <a href="https://twitter.com/@twitter" target="_blank">Twitter</a>
+                
+            </div>
+            
+        </footer>
+    </body>
+
+    
+        <script src="https://oltdaniel.github.io/dose/js/script.js"/></script>
+    
+</html>
