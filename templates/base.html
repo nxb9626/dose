@@ -44,7 +44,7 @@
             <hr text="&copy; Copyright {{ now() | date(format='%Y') }}" />
             {% if config.extra.social_media and config.extra.social_media | length > 0 %}
             <div class="footer-social-media">
-                <a onclick="toggle_prefers_color()">Toggle Theme</a>
+		    <!-- <a onclick="toggle_prefers_color()">Toggle Theme</a> -->
                 {% for social in config.extra.social_media %}
                     <a href="{{ social.url | safe }}" target="_blank">{{ social.name }}</a>
                 {% endfor %}
